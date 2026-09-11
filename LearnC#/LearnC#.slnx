@@ -2,4 +2,5 @@
   <Project Path="Day1_输出/Day1_输出.csproj" />
   <Project Path="Day2_变量/Day2_变量.csproj" />
   <Project Path="Day3_类型转换/Day3_类型转换.csproj" />
+  <Project Path="Day4_更安全的类型转换/Day4_更安全的类型转换.csproj" Id="cd7c16c9-5091-423a-8015-e55b81f6b3da" />
 </Solution>
