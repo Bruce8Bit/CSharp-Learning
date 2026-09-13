@@ -4,4 +4,5 @@
   <Project Path="Day3_类型转换/Day3_类型转换.csproj" />
   <Project Path="Day4_更安全的类型转换/Day4_更安全的类型转换.csproj" Id="cd7c16c9-5091-423a-8015-e55b81f6b3da" />
   <Project Path="Day5_运算符/Day5_运算符.csproj" Id="e60e960b-d7ce-435c-9fca-92a599deb8d5" />
+  <Project Path="Day6_条件判断/Day6_条件判断.csproj" Id="6ef1755d-5bef-4732-96f3-99b2f51eb01e" />
 </Solution>
