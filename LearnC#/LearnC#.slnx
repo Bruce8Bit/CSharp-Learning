@@ -6,4 +6,5 @@
   <Project Path="Day5_运算符/Day5_运算符.csproj" Id="e60e960b-d7ce-435c-9fca-92a599deb8d5" />
   <Project Path="Day6_条件判断/Day6_条件判断.csproj" Id="6ef1755d-5bef-4732-96f3-99b2f51eb01e" />
   <Project Path="Day7_循环语句/Day7_循环语句.csproj" Id="98f20040-09ab-4102-a658-7f1ff25f1de6" />
+  <Project Path="Day8_循环for,while do,while/Day8_循环for,while do,while.csproj" Id="f6484503-3c57-4d24-acdd-2e81b8951acf" />
 </Solution>
