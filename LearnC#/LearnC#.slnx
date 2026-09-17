@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Day10_方法/Day10_方法.csproj" Id="d19051ec-7999-4fc8-8710-cef983e862f8" />
   <Project Path="Day1_输出/Day1_输出.csproj" />
   <Project Path="Day2_变量/Day2_变量.csproj" />
   <Project Path="Day3_类型转换/Day3_类型转换.csproj" />
