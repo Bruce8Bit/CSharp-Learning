@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            // 步骤1：利用 Customer 类创建一个对象 c1（声明 + 实例化一步到位）
+            /*
+             // 步骤1：利用 Customer 类创建一个对象 c1（声明 + 实例化一步到位）
             // c1 就是一个具体的"顾客"，它有类中定义的所有属性和方法
             Customer c1 = new Customer();
 
@@ -24,7 +25,22 @@
 
             // 步骤5：调用 c1 的方法，显示这个顾客的信息
             c1.Show();
+             */
 
+
+            //Vehicle Car1 = new Vehicle();
+            //Car1.Run();
+            //Car1.Stop();
+
+
+            Vector3 v1 = new Vector3();
+
+            v1.x = 1.78f;
+            v1.y = 6.6f;
+            v1.z = 4.4f;
+
+            float lenght = v1.Length();
+            Console.WriteLine("向量长度：" + lenght);
         }
     }
 }
