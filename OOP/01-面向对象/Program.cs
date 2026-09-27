@@ -33,14 +33,25 @@
             //Car1.Stop();
 
 
-            Vector3 v1 = new Vector3();
+            //Vector3 v1 = new Vector3();
 
-            v1.x = 1.78f;
-            v1.y = 6.6f;
-            v1.z = 4.4f;
+            //v1.x = 1.78f;
+            //v1.y = 6.6f;
+            //v1.z = 4.4f;
 
-            float lenght = v1.Length();
-            Console.WriteLine("向量长度：" + lenght);
+            //float lenght = v1.Length();
+            //Console.WriteLine("向量长度：" + lenght);
+
+
+            //调用构造函数
+            Customer lili0 = new Customer();
+
+            Customer lili1 = new Customer("liliya","China",12,"1999-10-1");
+            lili1.Show();
+
+
+            Customer lili2 = new Customer("lilime","USA",29,"2001-1-1");
+            lili2.Show();
         }
     }
 }
