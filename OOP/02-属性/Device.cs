@@ -6,19 +6,19 @@ namespace _02_属性
 {
     internal class Device
     {
-        private string name;
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
+        //private string name;
+        //public string Name
+        //{
+        //    get
+        //    {
+        //        return name;
+        //    }
 
-            set
-            {
-                name = value;
-            }
-        }
+        //    set
+        //    {
+        //        name = value;
+        //    }
+        //}
 
         private int temperature;
         public int Temperature
@@ -35,6 +35,30 @@ namespace _02_属性
                 }
             }
         }
+
+        public string Number
+        {
+            get; //外部可读
+            private set;// 外部不可修改
+        }
+        public Device(string number)
+        {
+            Number = number;
+        }
+
+        private string name;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value; 
+            }
+        }
+        
 
     }
 }
