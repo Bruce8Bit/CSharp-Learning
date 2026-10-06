@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="01-面向对象/01-面向对象.csproj" />
   <Project Path="02-属性/02-属性.csproj" Id="d207ba41-aba3-42be-b07a-d1d8f6ade55d" />
+  <Project Path="03-练习题/03-练习题.csproj" Id="485b047f-3259-46c1-a6b8-4f2dad2b2639" />
 </Solution>
