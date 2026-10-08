@@ -102,8 +102,35 @@
             double averageEfficiency = totalEfficiency / devices.Length;
             Console.WriteLine("平均效率:" + averageEfficiency);
 
+            double maxTemperature = devices[0].Temperature;
+            Device maxDevice = devices[0];
+            foreach (Device device in devices)
+            {
+                if (device.Temperature > maxTemperature)
+                {
+                    maxTemperature = device.Temperature;
+                    maxDevice = device;
+                }
+            }
+            
+            Console.WriteLine("最高温度：" + maxTemperature);
+            Console.WriteLine("最高温度设备的编号：" + maxDevice.Number);
+            Console.WriteLine("最高温度设备的名称：" + maxDevice.Name);
 
 
+            double maxEfficiency = devices[0].Efficiency;
+            Device maxEfficiencyDevice = devices[0];
+            foreach (Device device in devices)
+            {
+                if (device.Efficiency > maxEfficiency)
+                {
+                    maxEfficiency = device.Efficiency;
+                    maxEfficiencyDevice = device;
+                }
+            }
+            Console.WriteLine("最高效率：" + maxEfficiency);
+            Console.WriteLine("最高效率设备的编号：" + maxEfficiencyDevice.Number);
+            Console.WriteLine("最高效率设备的名称：" + maxEfficiencyDevice.Name);
         }
     }
 }
